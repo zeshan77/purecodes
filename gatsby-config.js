@@ -5,5 +5,20 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Ubuntu Mono`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    }
+  ],
 }

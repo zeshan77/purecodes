@@ -1,0 +1,11 @@
+.logo {
+    @apply text-gray-400 font-bold text-3xl block p-0 m-0
+}
+
+.link {
+    @apply text-gray-500 text-xl px-6 inline-block pb-4 tracking-wide font-normal pt-1
+}
+
+.link:hover {
+    @apply text-gray-200 border-b-2 border-gray-200 -mb-1
+}

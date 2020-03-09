@@ -1,0 +1,8 @@
+.banner {
+    background-image: url('../styles/images/banner.svg');
+    @apply py-20
+}
+
+.heading {
+    @apply flex justify-center text-3xl text-blue-800 tracking-wider mb-3
+}
