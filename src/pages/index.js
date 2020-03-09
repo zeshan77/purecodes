@@ -6,8 +6,8 @@ import WhatWeDo from "../components/what-we-do"
 const Index = () => {
     return (
         <Layout>
-            <Tools />
             <WhatWeDo />
+            <Tools />
         </Layout>
     )
 }
