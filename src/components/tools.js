@@ -9,7 +9,7 @@ import Styles from "./tools.module.css"
 
 const Tools = () => {
     return (
-        <div id="#tools">
+        <div id="tools">
             <div className="bg-gray-400 py-16">
                 <div className="container mx-auto px-10 md:px-0">
                     <div

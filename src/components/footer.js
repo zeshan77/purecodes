@@ -10,6 +10,7 @@ const Footer = () => {
                         <li className="mb-2"><Link to="/" className="hover:underline px-6">Home</Link></li>
                         <li className="mb-2"><Link to="/#tools" className="hover:underline px-6">Tools</Link></li>
                         <li className="mb-2"><Link to="/#what-we-do" className="hover:underline px-6">What We Do</Link></li>
+                        <li className="mb-2"><Link to="/#contact-form" className="hover:underline px-6">Contact</Link></li>
                     </ul>
                 {/* </div> */}
                 {/* <div> */}
