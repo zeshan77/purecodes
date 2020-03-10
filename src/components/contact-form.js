@@ -35,7 +35,7 @@ const ContactForm = () => {
                         <textarea required id="comment" className="focus: outline-none focus:border-primary-blue border border-gray-300 rounded px-3 py-1 text-base w-full h-24" name="comment" placeholder="Add a comment"></textarea>
                     </div>
                     <div>
-                        <button className="bg-primary-blue px-3 py-1 rounded text-white hover:opacity-75">Submit</button>
+                        <button className="bg-primary-blue px-3 py-1 rounded text-white hover:opacity-75" type="submit">Submit</button>
                     </div>
                 </form>
             </div>
