@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 
-const Contact = () => {
+const ThankYou = () => {
     return (
         <Layout>
             <div className="container mx-auto py-56">
@@ -11,4 +11,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default ThankYou

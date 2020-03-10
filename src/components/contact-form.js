@@ -21,7 +21,9 @@ const ContactForm = () => {
             </div>
 
             <div className="container mx-auto py-8 px-10 md:px-0 flex justify-center">
-                <form action="/contact" method="POST" className="w-1/2" name="contact" data-netlify="true">
+                <form action="/thank-you" method="POST" className="w-1/2" name="contact" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="mb-6">
                         <label className="block text-primary-blue" for="name">Name</label>
                         <input required autocomplete="off" id="name" className="focus: outline-none focus:border-primary-blue border border-gray-300 px-3 py-3 rounded text-base w-full" type="text" name="name" placeholder="Your name" />
