@@ -25,9 +25,9 @@ export default function HTML(props) {
         <script dangerouslySetInnerHTML= {{ __html: ` 
                 window.addEventListener('scroll', function() {
                     if(pageYOffset < document.documentElement.clientHeight)
-                        document.getElementById('scroll-top').style.display = 'none';
+                        document.getElementById('scroll-top').style.visibility = 'hidden';
                     else
-                        document.getElementById('scroll-top').style.display = 'block';
+                        document.getElementById('scroll-top').style.visibility = 'visible';
                   });
                 `
             }} />
