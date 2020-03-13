@@ -3,9 +3,8 @@ import { Link } from "gatsby"
 
 const Footer = () => {
     return (
-        <footer className="bg-dark-blue pt-16 pb-24 text-white">
+        <footer className="bg-dark-blue pt-16 pb-24 text-gray-500">
             <div className="container mx-auto px-10 md:px-0">
-                {/* <div className="flex items-center"> */}
                     <ul className="flex justify-center">
                         <li className="mb-2"><Link to="/" className="hover:underline px-6">Home</Link></li>
                         <li className="mb-2"><Link to="/#what-we-do" className="hover:underline px-6">What We Do</Link></li>
