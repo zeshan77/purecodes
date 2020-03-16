@@ -22,7 +22,7 @@ const Tools = () => {
                         data-sal="slide-up"
                         data-sal-delay="100"
                         data-sal-easing="ease"
-                        className="text-center tracking-wider"
+                        className="text-center tracking-normal md:tracking-wider"
                     >
                         We've got plenty of tools in our shed. <br/>
                         These are the sharpest:

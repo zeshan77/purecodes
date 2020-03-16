@@ -36,7 +36,7 @@ const ContactForm = () => {
                         <label htmlFor="comment" className="block text-primary-blue">Comment</label>
                         <textarea autoComplete="off" required id="comment" className="focus: outline-none focus:border-primary-blue border border-gray-300 rounded px-3 py-1 text-base w-full h-24" name="comment" placeholder="Add a comment"></textarea>
                     </div>
-                    <div>
+                    <div className="text-center md:text-left">
                         <button className="bg-primary-blue px-3 py-1 rounded text-white hover:opacity-75" type="submit">Submit</button>
                     </div>
                 </form>

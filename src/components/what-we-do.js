@@ -13,7 +13,7 @@ const WhatWeDo = () => {
                             data-sal-easing="ease"
                         >What We Do</div>
                         <p 
-                            className="text-center tracking-wider md:px-64"
+                            className="text-center tracking-normal md:tracking-wider md:px-64"
                             data-sal="slide-right"
                             data-sal-delay="100"
                             data-sal-easing="ease"
@@ -29,13 +29,13 @@ const WhatWeDo = () => {
                     <div className="container mx-auto py-20 md:flex px-10 md:px-0">
                         <div className="w-full md:w-1/2 pr-8 mb-8 md:mb-0">
                             <div 
-                                className="w-full"
+                                className="w-full text-center md:text-left"
                                 data-sal="slide-left"
                                 data-sal-delay="500"
                                 data-sal-easing="ease"
                             >
                                 <h3 className="text-2xl mb-3"><span className="inline-block pb-1 mb-2 border-b-4 border-primary-blue">App</span> Development</h3>
-                                <p className="tracking-widest">We’re proud test-driven developers who focus on writing clean, maintainable code. Our developers are constantly 
+                                <p className="tracking-normal md:tracking-widest">We’re proud test-driven developers who focus on writing clean, maintainable code. Our developers are constantly 
                                     learning new techniques and concepts that put them ahead of the game, and can help share that knowledge 
                                     with your team. Pairing and Mobbing are practices we use daily as we take pride in our work, and we cherish 
                                     the opportunity to teach and learn with our peers.</p>
@@ -271,9 +271,9 @@ const WhatWeDo = () => {
                             </div>
                         </div>
                         <div className="w-full md:w-1/2 pl-8 pt-20">
-                            <div className="">
+                            <div className="text-center md:text-left">
                                 <h3 className="text-2xl mb-3"><span className="inline-block pb-1 mb-2 border-b-4 border-primary-blue">Technical</span> Leadership</h3>
-                                <p className="tracking-widest">We pride ourselves on delivering exceptional code, and we facilitate this when working with our clients. 
+                                <p className="tracking-normal md:tracking-widest">We pride ourselves on delivering exceptional code, and we facilitate this when working with our clients. 
                                 Our team consists of experts that will help you guide your team into building products you can be proud of.</p>
                             </div>
                         </div>
@@ -285,13 +285,13 @@ const WhatWeDo = () => {
                     <div className="container mx-auto py-20 md:flex px-10 md:px-0">
                         <div className="w-full md:w-1/2 pr-8">
                             <div 
-                                className="pt-8 pb-8 md:pb-0"
+                                className="pt-8 pb-8 md:pb-0 text-center md:text-left"
                                 data-sal="slide-left"
                                 data-sal-delay="100"
                                 data-sal-easing="ease"
                             >
                                 <h3 className="text-2xl mb-3"><span className="inline-block mb-2 pb-1 border-b-4 border-primary-blue">Product</span> Design</h3>
-                                <p className="tracking-widest">We practice user-centered design. While we’re planning, designing, and building, we strive to solve the user’s problem first, 
+                                <p className="tracking-normal md:tracking-widest">We practice user-centered design. While we’re planning, designing, and building, we strive to solve the user’s problem first, 
                                 so that your business goals are met. As a result, your users will experience software that is both intuitive 
                                 and beautiful.</p>
                             </div>
