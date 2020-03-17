@@ -5,10 +5,14 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://purecodes.net`,
+  },
   plugins: [
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

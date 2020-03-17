@@ -20,6 +20,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-plugin-scroll-reveal": "0.0.6",
+    "gatsby-plugin-sitemap": "^2.2.30",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
