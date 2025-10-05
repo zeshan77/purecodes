@@ -1,11 +1,16 @@
-import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./layout/Layout";
 
-const App = () => {
+function App() {
   return (
-    <div className='text-3xl text-center text-teal-700 h-screen bg-gray-100 p-4'>
-      <h1>Hello Purecodes</h1>
-    </div>
-  )
+    <Router>
+      <Layout>
+        <Routes>
+          {/* <Route path="/" element={<Home />} /> */}
+        </Routes>
+      </Layout>
+    </Router>
+  );
 }
 
-export default App
+export default App;
