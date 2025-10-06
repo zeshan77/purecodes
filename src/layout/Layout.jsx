@@ -1,16 +1,16 @@
+// import Banner from "../components/Banner";
 import Header from "../components/Header";
-import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 
 const Layout = ({ children }) => {
   return (
-    <>
-      <Banner />
+    <div className="flex flex-col min-h-screen">
+      {/* <Banner /> */}
       <Header />
-      <main>{children}</main>
+      <main className="flex-grow">{children}</main>
       <Footer />
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;
