@@ -14,7 +14,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white">
+    <header className="bg-white px-2">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
@@ -26,7 +26,7 @@ export default function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold text-[#013d52] hover:text-[#014659]"
+              className="text-sm font-semibold text-black hover:text-[#014659]"
             >
               {item.name}
             </a>
