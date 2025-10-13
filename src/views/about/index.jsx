@@ -1,11 +1,15 @@
-import React from 'react'
+import AppDevelopment from "./AppDevelopment";
+import ProductDesign from "./ProductDesign";
+import TechnicalLeadership from "./TechnicalLeadership";
 
 const index = () => {
   return (
-    <div>
-      <h1>About page</h1>
+    <div id="about" className="py-18">
+      <AppDevelopment />
+      <ProductDesign />
+      <TechnicalLeadership />
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;

@@ -1,11 +1,11 @@
-import React from 'react'
+import Services from "./Services";
+import Cards from "./Cards";
 
-const index = () => {
+export default function Home() {
   return (
-    <div>
-      <h1>Services page</h1>
-    </div>
-  )
+    <>
+      <Services />
+      <Cards />
+    </>
+  );
 }
-
-export default index

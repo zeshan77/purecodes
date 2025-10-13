@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --brand-primary: #01627a;
   --brand-dark: #014659;
@@ -9,3 +13,27 @@
 body {
   @apply text-gray-900 bg-white antialiased;
 }
+
+
+@layer utilities {
+  @keyframes draw {
+    0% {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+  }
+
+  .animate-draw {
+    animation: draw 2.5s ease-in-out forwards;
+  }
+}
+

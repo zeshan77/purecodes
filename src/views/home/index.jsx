@@ -1,15 +1,11 @@
-import HeroSection from './HeroSection'
-import WhatWeDo from './WhatWeDo'
-import Tools from './Tools'
-import GetInTouch from './GetInTouch'
+import Header from "./Header";
+import Showcase from "./Showcase";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
-      <Tools />
-      <WhatWeDo />
-      <GetInTouch />
+      <Header />
+      <Showcase />
     </>
-  )
+  );
 }
