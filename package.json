@@ -1,40 +1,33 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "purecodes",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "MIT",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "gatsby": "^2.19.7",
-    "gatsby-plugin-google-analytics": "^2.1.37",
-    "gatsby-plugin-postcss": "^2.1.20",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
-    "gatsby-plugin-react-helmet": "^3.1.22",
-    "gatsby-plugin-scroll-reveal": "0.0.6",
-    "gatsby-plugin-sitemap": "^2.2.30",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "smooth-scroll": "^16.1.2"
+    "@fontsource/ubuntu-mono": "^5.2.8",
+    "@headlessui/react": "^2.2.9",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.11.0",
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "tailwindcss": "^1.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "^7.2.4"
   }
 }
